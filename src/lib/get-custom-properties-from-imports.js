@@ -17,7 +17,7 @@ async function getCustomPropertiesFromCSSFile(from, resolver) {
 /* ========================================================================== */
 
 async function getCustomPropertiesFromSCSSFile(from, resolver) {
-	return await getCustomPropertiesFromCSSFile(root, resolver);
+	return await getCustomPropertiesFromCSSFile(from, resolver);
 }
 
 /* Get Custom Properties from Object
@@ -83,7 +83,6 @@ export default function getCustomPropertiesFromSources(sources, resolver) {
 		if (type === 'css') {
 			return Object.assign(await customProperties, await getCustomPropertiesFromCSSFile(from, resolver));
 		}
-		
 
 		if (type === 'scss') {
 			return Object.assign(await customProperties, await getCustomPropertiesFromSCSSFile(from, resolver));
