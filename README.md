@@ -1,3 +1,7 @@
+# About
+
+[Stylelint Value No Unknown Custom Properties](https://github.com/csstools/stylelint-value-no-unknown-custom-properties) with scss importFrom support.
+
 # Stylelint Value No Unknown Custom Properties [<img src="https://jonathantneal.github.io/stylelint-logo.svg" alt="stylelint" width="90" height="90" align="right">][stylelint]
 
 [![NPM Version][npm-img]][npm-url]
